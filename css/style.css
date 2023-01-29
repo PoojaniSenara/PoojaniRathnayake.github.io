@@ -349,7 +349,7 @@ header .navbar ul li a:hover{
     padding-bottom: 2rem;
 }
 
-.contact .row .content .info {
+.contact .row .content .info h3{
     text-transform: lowercase;
     display: flex;
     align-items: center;
