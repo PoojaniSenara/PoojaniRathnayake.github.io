@@ -349,7 +349,7 @@ header .navbar ul li a:hover{
     padding-bottom: 2rem;
 }
 
-.contact .row .content .info h3{
+.contact .row .content .info {
     text-transform: lowercase;
     display: flex;
     align-items: center;
@@ -362,7 +362,7 @@ header .navbar ul li a:hover{
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--yellow);
-    text-transform: lowercase;
+    
 }
 
 .top{
