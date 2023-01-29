@@ -350,7 +350,6 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content .info h3{
-    text-transform: lowercase;
     display: flex;
     align-items: center;
     font-size: 2rem;
