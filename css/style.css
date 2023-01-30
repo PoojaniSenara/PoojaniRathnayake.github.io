@@ -241,8 +241,13 @@ header .navbar ul li a:hover{
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
-}
 
+}
+.education.box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
 .education .box-container .box span{
     font-size: 1.3rem;
     background:#222;
