@@ -246,7 +246,7 @@ header .navbar ul li a:hover{
 .education.box-container .box img{
     height:100%;
     width:100%;
-    margin:5rem;
+    margin:auto;
 }
 .education .box-container .box span{
     font-size: 1.3rem;
