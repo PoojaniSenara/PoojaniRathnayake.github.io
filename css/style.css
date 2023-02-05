@@ -239,6 +239,8 @@ header .navbar ul li a:hover{
     width:27rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
+    margin-bottom:5rem;
+    margin-top:5rem;
     position: relative;
 
 }
@@ -281,6 +283,7 @@ header .navbar ul li a:hover{
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
+    margin-top:5rem;
     color:#fff;
     background:var(--yellow);
 }
