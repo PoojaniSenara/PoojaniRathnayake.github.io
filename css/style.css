@@ -281,6 +281,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color:#fff;
+    margin:1.5rem;
     background:var(--yellow);
 }
 
