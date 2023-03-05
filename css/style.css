@@ -348,7 +348,7 @@ background:var(--yellow);
 }
 
 .contact .row form .box::placeholder{
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .contact .row form .message{
