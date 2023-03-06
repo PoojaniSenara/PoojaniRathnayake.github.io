@@ -350,7 +350,14 @@ form .btn2{
     margin-top:20px;
     cursor:pointer; 
 }
-
+.copyright{
+    width:100%;
+    text-align:center;
+    padding:25px 0;
+    background: #262626;
+    font-weight;300;
+    margin-top:20px;
+}   
 .contact-right form .box::placeholder{
     text-transform: none;
 }
@@ -397,19 +404,10 @@ form .btn2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
-
+nav.fas{
+    display:none;
+}    
 @media (max-width:1200px){
 
     html{
@@ -450,7 +448,7 @@ form .btn2{
  
  }
 
-@media (max-width:400px){
+@media (max-width:600px){
 
     header{
         width: 100vw;
