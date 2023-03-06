@@ -330,19 +330,20 @@ background:var(--yellow);
     padding-bottom: 0;
 }
 
-.contact-right form{
-    width:100%;
+.contact-right.row.form{
+flex:1 1 4rem;
+padding:2rem;
+margin:2rem;    
+margin-bottom:4rem;
 }
-form input,form textarea{
-    width:100%;
-    border:0;
-    outline:none;
+.contact-right.row form.box{
     padding:1.5rem;
     margin:1rem 0;
     background:#3333;
     color:#fff;
-    font-size: 1.7rem;
-    border-radius: 6px;    
+    text-transform:none;
+    font-size:1.7rem;
+    width:100%;
 }
 form .btn2{
     padding:14px 60px;
