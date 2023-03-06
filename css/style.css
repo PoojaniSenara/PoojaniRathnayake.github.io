@@ -330,14 +330,14 @@ background:var(--yellow);
     padding-bottom: 0;
 }
 
-.contact-right.row form{
+.contact-right form{
     flex:1 1 45rem;
     padding:2rem;
     margin:2rem;
     margin-bottom: 4rem;
 }
 
-.contact-right .row form .box{
+.contact-right form .box{
     padding:1.5rem;
     margin:1rem 0;
     background:#3333;
@@ -347,11 +347,11 @@ background:var(--yellow);
     width:100%;
 }
 
-.contact-right .row form .box::placeholder{
+.contact-right form .box::placeholder{
     text-transform: none;
 }
 
-.contact-right .row form .message{
+.contact-right form .message{
     height: 15rem;
     resize: none;
 }
