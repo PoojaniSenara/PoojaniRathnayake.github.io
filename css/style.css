@@ -336,7 +336,7 @@ padding:2rem;
 margin:2rem;    
 margin-bottom:4rem;
 }
-.contact-right.row form.box{
+form input,form textarea{
     padding:1.5rem;
     margin:1rem 0;
     background:#3333;
