@@ -220,7 +220,7 @@ GCE Ordinary Level (2017) Anula Vidyalaya, Nugegoda
 
     </div>
 	<div class = "contact-right">
-	     <form>	
+	     <form name="submit-to-google-sheet">	
 		     <input type= "text" name="Name" placeholder="Your Name" required>
 		     <input type="email" name"email" placeholder"Your Email" required>
 		     <textarea name="Message" rows="6" placeholder="Your Message"</textarea>
@@ -244,7 +244,17 @@ GCE Ordinary Level (2017) Anula Vidyalaya, Nugegoda
     <img src="images/scroll-top-img.png" alt="">
 </a>
 
+<script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbxm7VBqMNlEdX-BwR65TdK0wUtBgKBxT4zfeBEBmFlhrCHBRmYkQD4k0q6OPQHDJtILfA/exec>'
+  const form = document.forms['submit-to-google-sheet']
 
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script> 
 
 <!-- jquery cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
