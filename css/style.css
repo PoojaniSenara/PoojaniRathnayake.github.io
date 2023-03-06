@@ -330,21 +330,25 @@ background:var(--yellow);
     padding-bottom: 0;
 }
 
-.contact-right form{
-    flex:1 1 45rem;
-    padding:2rem;
-    margin:2rem;
-    margin-bottom: 4rem;
-}
-
 .contact-right form .box{
-    padding:1.5rem;
-    margin:1rem 0;
-    background:#3333;
-    color:#fff;
-    text-transform: none;
-    font-size: 1.7rem;
     width:100%;
+}
+form input,form textarea{
+width:100%;
+border:0;
+outline:none;
+padding:1.5rem;
+margin:1rem 0;
+background:#3333;
+color:#fff;
+font-size: 1.7rem;
+border-radius: 0.5rem;    
+}
+form .btn2{
+    padding:14px 60px;
+    font-size:18px;
+    margin-top:20px;
+    cursor:pointer; 
 }
 
 .contact-right form .box::placeholder{
