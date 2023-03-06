@@ -330,25 +330,26 @@ background:var(--yellow);
     padding-bottom: 0;
 }
 
-.contact-right form .box{
+.contact-right form{
     width:100%;
 }
 form input,form textarea{
-width:100%;
-border:0;
-outline:none;
-padding:1.5rem;
-margin:1rem 0;
-background:#3333;
-color:#fff;
-font-size: 1.7rem;
-border-radius: 0.5rem;    
+    width:100%;
+    border:0;
+    outline:none;
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#3333;
+    color:#fff;
+    font-size: 1.7rem;
+    border-radius: 6px;    
 }
 form .btn2{
     padding:14px 60px;
     font-size:18px;
     margin-top:20px;
-    cursor:pointer; 
+    cursor:pointer;
+    background:#262626;
 }
 .copyright{
     width:100%;
@@ -358,14 +359,7 @@ form .btn2{
     font-weight;300;
     margin-top:20px;
 }   
-.contact-right form .box::placeholder{
-    text-transform: none;
-}
 
-.contact-right form .message{
-    height: 15rem;
-    resize: none;
-}
 
 .contact .row .content .title{
     text-transform: capitalize;
